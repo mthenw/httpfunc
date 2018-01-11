@@ -1,0 +1,25 @@
+{
+  "name": "httpfunc",
+  "version": "0.1.0",
+  "description": "AWS Lambda function that does HTTP requests.",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "header-case": "^1.0.1",
+    "node-fetch": "^1.7.3"
+  },
+  "eslintConfig": {
+    "extends": ["airbnb-base", "eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 6
+    }
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": ["serverless", "aws", "lambda", "http"]
+}

@@ -1,0 +1,11 @@
+service: example
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  http:
+    handler: index.handler
+    environment:
+      HTTP_URL: https://httpcodes.co/status/201/
