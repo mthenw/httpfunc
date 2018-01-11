@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "httpfunc": "*"
+    "httpfunc": "0.1.1"
   }
 }

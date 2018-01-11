@@ -1,6 +1,6 @@
 {
   "name": "httpfunc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AWS Lambda function that does HTTP requests.",
   "license": "MIT",
   "devDependencies": {

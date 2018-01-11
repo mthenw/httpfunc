@@ -20,11 +20,11 @@ module.exports = function httpfunc(event, context, callback) {
 
   fetch(env.HTTP_URL, options)
     .then(res => {
-      res.text().then(() => {
+      res.text().then(body => {
         callback(null, {
           status: res.status,
-          headers: res.headers.raw()
-          // body
+          headers: res.headers.raw(),
+          body
         });
       });
     })
