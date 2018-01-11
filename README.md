@@ -1,7 +1,7 @@
 # httpfunc
 
-AWS Lambda function that does HTTP requests. `httpfunc` make HTTP request based on environment variables passed to
-the function. E.g. setting `HTTP_URL=https://example.com` will cause making GET request to https://example.com. List of
+AWS Lambda function that does HTTP requests. `httpfunc` makes HTTP request based on environment variables passed to
+the function, e.g. setting `HTTP_URL=https://example.com` will cause making GET request to https://example.com. List of
 all supported environment variables can be found below. Functions returns response object or error.
 
 ## Install
@@ -12,8 +12,8 @@ npm i httpfunc --save
 
 ## Usage
 
-You can use `httpfunc` with every deployment tool (e.g. Serverless Framework, Apex, etc.). Just create a simple file
-with the handler:
+You can use `httpfunc` with every deployment tool (e.g. Serverless Framework, Apex, etc.). Just create a simple handler
+file:
 
 ```
 exports.handler = require('httpfunc');
