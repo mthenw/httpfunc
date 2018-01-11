@@ -33,4 +33,5 @@ functions:
 
 * `HTTP_URL` - request URL
 * `HTTP_METHOD` - HTTP method (default: `GET`)
+* `HTTP_BODY` - HTTP request body
 * `HTTP_HEADERS_<header name>` - header name in camel case form e.g. `ContentType`
